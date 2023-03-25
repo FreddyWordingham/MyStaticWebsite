@@ -49,7 +49,7 @@ const SHADER = `#define detail .00001
                     float diff = max(0.,dot(lightdir,-n));
                     vec3 amb = max(.6,dot(dir,-n))*.7*vec3(1.);
                     float k=texture2(p);
-                    vec3 col=mix(vec3(k,k*k,k*k*k)*.8+.2, vec3(k)*.5, sin(p.z)*0.5+0.5);
+                    vec3 col=mix(vec3(k,k*k,k*k*k)*.8+.2, vec3(k)*.5, cos(p.z)*0.5+0.5);
                     return col*(amb+diff);
                 }
 

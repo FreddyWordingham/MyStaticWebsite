@@ -1,7 +1,7 @@
 # MyStaticWebsite
 
 <div align="center">
-    <iframe src="https://freddywordingham.github.io/MyStaticWebsite/" frameborder="0"></iframe>
+    <img src="./screenshot.png" alt="MyStaticWebsite" />
 </div>
 
 Example static website.
